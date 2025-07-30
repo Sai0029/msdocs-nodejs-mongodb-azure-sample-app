@@ -18,7 +18,7 @@ async function getApp() {
   mongoose.connect(mongoUri).then(() => {
     console.log('Connected to database');
   }).catch((err) => {
-    console.error('Error connecting to database:', err);
+    console.error('Eror connecting to database:', err);
   });
 
   var app = express();
